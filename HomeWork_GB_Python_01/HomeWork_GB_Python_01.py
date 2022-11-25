@@ -71,28 +71,50 @@
 
 # 4 Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
 
-def InputPositionQuarter():
-    quarter = int(input())
-    if quarter < 1 or quarter > 4:
-        print("Введеное значение не относится к четверти, заменили на 1")
-        return 1
-    else:
-        return quarter
+#def InputPositionQuarter():
+#    quarter = int(input())
+#    if quarter < 1 or quarter > 4:
+#        print("Введеное значение не относится к четверти, заменили на 1")
+#        return 1
+#    else:
+#        return quarter
 
-print("Введите номер четверти. 1, 2, 3 или 4):")
-quarter = InputPositionQuarter()
+#print("Введите номер четверти. 1, 2, 3 или 4):")
+#quarter = InputPositionQuarter()
 
-if quarter == 1 or quarter == 4:
-    if quarter == 1:
-        print("Возможные значения X: от 1 до ∞")
-        print("Возможные значения Y: от 1 до ∞")
-    else:
-        print("Возможные значения X: от 1 до ∞")
-        print("Возможные значения Y: от -1 до -∞")
-else:
-    if quarter == 2:
-        print("Возможные значения X: от -1 до -∞")
-        print("Возможные значения Y: от 1 до ∞")
-    else:
-        print("Возможные значения X: от -1 до -∞")
-        print("Возможные значения Y: от -1 до -∞")
+#if quarter == 1 or quarter == 4:
+#    if quarter == 1:
+#        print("Возможные значения X: от 1 до ∞")
+#        print("Возможные значения Y: от 1 до ∞")
+#    else:
+#        print("Возможные значения X: от 1 до ∞")
+#        print("Возможные значения Y: от -1 до -∞")
+#else:
+#    if quarter == 2:
+#        print("Возможные значения X: от -1 до -∞")
+#        print("Возможные значения Y: от 1 до ∞")
+#    else:
+#        print("Возможные значения X: от -1 до -∞")
+#        print("Возможные значения Y: от -1 до -∞")
+
+#=============================================================================
+
+# 5 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+
+#Пример:
+
+#- A (3,6); B (2,1) -> 5,09
+#- A (7,-5); B (1,-1) -> 7,21
+
+#import math
+
+#print("Введите координату X1:")
+#positionX1 = int(input())
+#print("Введите координату Y1:")
+#positionY1 = int(input())
+#print("Введите координату X2:")
+#positionX2 = int(input())
+#print("Введите координату Y2:")
+#positionY2 = int(input())
+
+#print(f"Расстояние между точками: {round(math.sqrt(((positionX2 - positionX1)**2) + ((positionY2 - positionY1)**2)), 3)}")
