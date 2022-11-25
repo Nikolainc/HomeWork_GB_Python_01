@@ -8,17 +8,28 @@
 #- 7 -> да
 #- 1 -> нет
 
-def InputDay():
-    print("Введите номер дня недели от 1 до 7:")
-    return int(input())
-day = InputDay()
+#def InputDay():
+#    print("Введите номер дня недели от 1 до 7:")
+#    return int(input())
+#day = InputDay()
 
-while day < 1 or day > 7:
-    day = InputDay()
+#while day < 1 or day > 7:
+#    day = InputDay()
 
-if day >= 6:
-    print("Это выходной")
-else:
-    print("Это не выходной")
+#if day >= 6:
+#    print("Это выходной")
+#else:
+#    print("Это не выходной")
+
+#=============================================================================
+
+# 2 Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
+
+#X = False
+#Y = True
+#Z = False
+
+#if not(X or Y or Z) == (not X and not Y and not Z):
+#    print("Yes")
 
 #=============================================================================
