@@ -33,3 +33,36 @@
 #    print("Yes")
 
 #=============================================================================
+
+# 3 Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка (или на какой оси она находится).
+
+#Пример:
+
+#- x=34; y=-30 -> 4
+#- x=2; y=4-> 1
+#- x=-34; y=-30 -> 3
+
+#def InputPositionNotNull():
+#    position = int(input())
+#    if position == 0:
+#        print("Введеное значение равно 0, заменили на 1")
+#        return 1
+#    else:
+#        return position
+
+
+#print("Введите координату X не равную 0:")
+#positionX = InputPositionNotNull()
+#print("Введите координату Y не равную 0:")
+#positionY = InputPositionNotNull()
+
+#if positionX > 0:
+#    if positionY > 0:
+#        print("1")
+#    else:
+#        print("4")
+#else:
+#    if positionY > 0:
+#        print("2")
+#    else:
+#        print("3")
